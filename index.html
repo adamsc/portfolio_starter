@@ -1,21 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David & Valentina Rock, Paper, Sciccors Game</title>
+    <!-- Link CSS here -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  </head>
 
-    <title>Hello!</title>
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
   <body>
-    <h1>
-      Helloooo
-    </h1>
+    <div class="row">
+      <h1>Rock Paper Scissors</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/1200px-Rock-paper-scissors.svg.png" />
+
+      <h3 class="pS">Please Submit Your Choice Below</h3>
+      <div>
+        <input class="input" />
+        <button class="play">play!</button>
+      </div>
+
+      <div class="choices" class="row">
+        <div>
+          <h4 class= "uC">User Choice</h4>
+          <p class="userChoice"></p>
+        </div>
+        <div>
+          <h4 class="cC">Computer Choice</h4>
+          <p class="computerChoice"></p>
+        </div>
+      </div>
+      <div class="result"></div>
+    </div>
+    
+    <!-- Link JQuery here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Link script.js here -->
+    <script src="js/script.js"></script>
   </body>
 </html>
